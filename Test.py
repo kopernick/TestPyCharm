@@ -1,16 +1,6 @@
 from random import choice
 
 
-def get_days():
-    days = ['mon', 'tue', 'wed', 'thurs', 'fri', 'sat', 'sun']
-    return days
-
-
-def get_random_report():
-    weather = ['sunny', 'lovely', 'cold']
-    return weather[choice.randint(0, len(weather) - 1)]
-
-
 class Person:
     def __init__(self, name):
         self.name = name
