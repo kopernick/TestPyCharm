@@ -4,7 +4,7 @@ from random import choice
 class Person:
     def __init__(self, name):
         self.name = name
-        self.greeting = 'Hello {name}'
+        self.greeting = 'Hello {name} !'
 
     def __str__(self):
         return self.make_greeting
